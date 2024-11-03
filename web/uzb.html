@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahon's - Kimano</title>
+    <style>
+        /* Base Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #00264d, #003366);
+            color: #ffffff;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+            color: #13f10b; /* Bright green to make the brand stand out */
+            text-shadow: 1px 1px 5px #000000; /* Adding a subtle shadow for depth */
+        }
+        .slogan {
+            font-size: 1.7em;
+            margin: 20px 0;
+            color: #ffcc00; /* Bright yellow for emphasis */
+            text-shadow: 1px 1px 5px #000000;
+        }
+        .description {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 20px auto;
+            color: #cce6ff; /* Soft blue for readability and harmony */
+        }
+
+        /* Image Styling and Animation */
+        .image-container {
+            max-width: 30%;
+            margin: 15px auto;
+            opacity: 0;
+            animation: fadeInOut 5s infinite; /* Infinite loop animation */
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #13f10b; /* Matching the brand color */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adding a shadow for depth */
+        }
+
+        /* Keyframes for the fade in and out animation */
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0; }   /* Invisible at start and end */
+            50% { opacity: 1; }        /* Fully visible at halfway point */
+        }
+    </style>
+</head>
+<body>
+    <h1>Kimano</h1>
+    <div class="slogan">Crafted for Champions – Push Beyond Limits 💪</div>
+
+    <!-- Image Container for Animation -->
+    <div class="image-container">
+        <img src="img1/T.png" style="max-width: 80%; height: auto; margin-bottom: 1rem;">
+    </div>
+
+    <div class="description">
+        <p>Transform your training with our high-quality taekwondo uniforms, designed for comfort and performance. Made from breathable materials, this uniform ensures you can train harder and longer, while providing flexibility and durability.</p>
+    </div>
+</body>
+</html>
